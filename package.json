@@ -27,11 +27,14 @@
     "precommit": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-prod": "react-scripts build && node modify-build-index.js", 
+    "build-prod": "react-scripts build && node modify-build-index.js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "bump:patch": "yarn version --no-git-tag-version --patch",
+    "bump:minor": "yarn version --no-git-tag-version --minor",
+    "bump:major": "yarn version --no-git-tag-version --major"
   },
-  "resolutions": { 
+  "resolutions": {
     "**/**/lodash.template": "^4.5.0",
     "**/**/handlebars": "^4.7.7",
     "**/**/set-value": "^2.0.1",
