@@ -11,6 +11,6 @@ ReactDOM.render(
 );
 registerServiceWorker();
 
-export * from './containers/CreatePerson';
-export * from './containers/PersonDashboard';
-export * from './containers/EditPerson';
+export { default as CreatePerson } from './containers/CreatePerson';
+export { default as PersonDashboard } from './containers/PersonDashboard';
+export { default as EditPerson } from './containers/EditPerson';
