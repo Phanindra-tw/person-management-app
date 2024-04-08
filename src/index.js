@@ -10,3 +10,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 registerServiceWorker();
+
+export * from './containers/CreatePerson';
+export * from './containers/PersonDashboard';
+export * from './containers/EditPerson';
