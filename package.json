@@ -1,8 +1,9 @@
 {
   "name": "bahmni-person-management-app",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "bahmni@thoughtworks.com",
   "description": "Person Management App",
+  "main": "dist/index.js",
   "dependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
