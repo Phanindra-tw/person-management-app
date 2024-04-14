@@ -26,9 +26,6 @@ jobs:
       - name: Build the app
         run: yarn build-prod
 
-      - name: Zip the build
-        run: zip -r person-management-app.zip build
-
       - id: versionCheck
         uses: EndBug/version-check@v2
         with:

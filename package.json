@@ -1,5 +1,5 @@
 {
-  "name": "person-management-app",
+  "name": "bahmni-person-management-app",
   "version": "0.0.1",
   "author": "bahmni@thoughtworks.com",
   "description": "Person Management App",
@@ -26,8 +26,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "start": "react-scripts start",
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development",
+    "build": "webpack --mode development",
+    "build-prod": "webpack --mode production",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "bump:patch": "yarn version --no-git-tag-version --patch",
