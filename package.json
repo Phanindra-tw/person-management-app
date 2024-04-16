@@ -1,6 +1,6 @@
 {
   "name": "bahmni-person-management-app",
-  "version": "0.0.3",
+  "version": "0.0.9",
   "author": "bahmni@thoughtworks.com",
   "description": "Person Management App",
   "main": "dist/index.js",
